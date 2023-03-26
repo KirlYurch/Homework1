@@ -1,0 +1,42 @@
+@media (max-width: 375px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    height: 735px;
+    background-image: url(img/BackGroundMobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .top {
+    padding-top: 238px;
+    align-items: center;
+    gap: 32px;
+  }
+  .top_logo {
+    font-size: 32px;
+    max-width: 343px;
+    text-align: center;
+  }
+  .top_logo_description {
+    padding-top: 0;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+  }
+  .top_button {
+    margin-top: 0;
+  }
+  .top .highlight {
+    font-size: 15px;
+  }
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content_menu {
+    width: 343px;
+  }
+}/*# sourceMappingURL=mobile.css.map */
