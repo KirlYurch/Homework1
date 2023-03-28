@@ -14,7 +14,7 @@
 
 
 // Задание 9.3
-// delete user ['city of residence'];
+// delete user ['city_of_residence'];
 
 
 // Задание 9.2
@@ -33,7 +33,7 @@
 // isAdmin: true,
 // "city of residence" : "Moscow"
 // }
-// console.log(user['city of residence']);
+// console.log(user['city_of_residence']);
 
 
 // Задание 9
@@ -54,8 +54,8 @@
 // num -= 3;
 // num *= 7;
 // num /= 3;
-// num += 1;
-// num -= 1;
+// num++1;
+// num--1;
 // alert(num);
 
 // Задание 6
@@ -80,15 +80,15 @@
 
 
 // Задание 3
-// let a;
-// a = ('Брендан Айк');
-// alert (`Создатель языка JavaScript - ${a}`);
+// let theCreator;
+// theCreator = ('Брендан Айк');
+// alert (`Создатель языка JavaScript - ${theCreator}`);
 
 
 // Задание 2  
-// let a;
-// a = 2007;
-// alert (`Год выпуска первого iPhone - ${a} г.`); 
+// let release;
+// release = 2007;
+// alert (`Год выпуска первого iPhone - ${release} г.`); 
 
 // Задание 1
 // let a = 10;
