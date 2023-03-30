@@ -1,5 +1,5 @@
 // Задание 1
-// let password = ('admin');
+// let password = 'admin';
 // let unPassword = String(prompt('Введите пароль'));
 // (password === unPassword) ? alert('Пароль введен верно') : alert('Пароль введен неправильно');
 
@@ -58,7 +58,7 @@
 
 // Задание 7
 // let randomNumber = prompt('Пожалуйста, введите любое число');
-// if (Number(randomNumber)) {
+// if (!isNaN(randomNumber)) {
 //     result = randomNumber % 2;
 //     if (result === 0) {
 //         alert('Число четное');
@@ -69,10 +69,3 @@
 //     } else {
 //         alert('Ввели некоректное значение');
 //     }
-//     result = randomNumber % 2
-//     if (result === 0) {
-//         alert('Число четное')
-//     }
-//     else {
-//         alert('Число нечетное');
-//    }

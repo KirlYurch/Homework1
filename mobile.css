@@ -1,11 +1,11 @@
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
   }
   .header {
     height: 735px;
-    background-image: url(img/BackGroundMobile.jpg);
+    background-image: url(img/BackGround.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -44,6 +44,7 @@
     padding-bottom: 51px;
     display: flex;
     align-content: space-between;
+    justify-content: center;
     gap: 64px;
   }
   .content2_img {
