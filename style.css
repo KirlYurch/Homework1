@@ -137,6 +137,21 @@
   margin-top: 32px;
 }
 
+.content3 {
+  padding-top: 239px;
+  padding-bottom: 239px;
+}
+
+.png2 {
+  order: 1;
+  max-width: 481px;
+  max-height: 322px;
+}
+
+.content3_content_box {
+  order: 2;
+}
+
 @media (max-width: 768px) {
   .center {
     padding-left: 16px;
@@ -195,5 +210,15 @@
     flex-direction: column;
     gap: 32px;
     align-items: center;
+  }
+  .content3 {
+    padding-top: 50px;
+    padding-bottom: 90px;
+  }
+  .png2 {
+    order: 2;
+  }
+  .content3_content_box {
+    order: 1;
   }
 }/*# sourceMappingURL=style.css.map */
