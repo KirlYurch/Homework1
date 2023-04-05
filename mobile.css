@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media (max-width: 768px) {
   .center {
     padding-left: 16px;
@@ -66,5 +67,11 @@
   }
   .content3_content_box {
     order: 1;
+  }
+  .content4_box_§ {
+    max-width: 343px;
+  }
+  .footer_info {
+    border-top: none;
   }
 }/*# sourceMappingURL=mobile.css.map */

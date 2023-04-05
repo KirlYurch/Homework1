@@ -1,10 +1,10 @@
 // Задание 6
-let firstFri = Number(prompt('На какое число выпадает первая пятница в месяце?'));
-let daysMonth = 31;
-while (firstFri <= daysMonth) {
-    console.log(`${firstFri}-е число, необходимо подготовить отчет.`);
-    firstFri = firstFri + 7;
-}
+// let firstFri = Number(prompt('На какое число выпадает первая пятница в месяце?'));
+// let daysMonth = 31;
+// while (firstFri <= daysMonth) {
+//     console.log(`${firstFri}-е число, необходимо подготовить отчет.`);
+//     firstFri = firstFri + 7;
+// }
 
 // Задание 5
 // let n = 1000;

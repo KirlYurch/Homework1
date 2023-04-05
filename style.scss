@@ -9,7 +9,7 @@
 
 .header {
     height: 1024px;
-    background-image: url(img/BackGround.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/BackGround.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -149,6 +149,42 @@
 }
 .content3_content_box {
     order: 2;
+}
+.content4 {
+    height: 800px;
+    background: linear-gradient(180deg, #000915 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/BackGroundContent4.jpg), #000915;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+.content4_box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.content4_box_§ {
+    max-width: none;
+}
+.footer_info {
+    height: 80px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: #000915;
+    border-top: 1px solid rgba(184, 212, 255, 0.2);
+    &_§ {
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
 }
 
 @import 'mobile';
